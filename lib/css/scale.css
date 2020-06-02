@@ -1,0 +1,87 @@
+.container{
+    margin: 5% 10% !important;
+    vertical-align: middle;
+}
+
+/* CONTAINER SETTING */
+.con-1{
+    width: 10%;
+}
+
+.con-2{
+    width: 20%;
+}
+
+.con-3{
+    width: 30%;
+}
+
+.con-4{
+    width: 40%;
+}
+
+.con-5{
+    width: 50%;
+}
+
+.con-6{
+    width: 60%;
+}
+
+.con-7{
+    width: 70%;
+}
+
+.con-8{
+    width: 80%;
+}
+
+.con-9{
+    width: 90%;
+}
+
+.con-10{
+    width: 100%;
+}
+
+/* PADDING SETTING */
+.pad-1{
+    padding: 10px;
+}
+
+.pad-2{
+    padding: 20px;
+}
+
+.pad-3{
+    padding: 30px;
+}
+
+.pad-4{
+    padding: 40px;
+}
+
+.pad-5{
+    padding: 50px;
+}
+
+/* MARGIN TOP SETTING */
+.mt-1{
+    margin-top: 10px;
+}
+
+.mt-2{
+    margin-top: 20px;
+}
+
+.mt-3{
+    margin-top: 30px;
+}
+
+.mt-4{
+    margin-top: 40px;
+}
+
+.mt-5{
+    margin-top: 50px;
+}
