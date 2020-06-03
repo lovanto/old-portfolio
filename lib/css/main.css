@@ -53,13 +53,26 @@ a {
     cursor: default;
 }
 
+.menu-border{
+    border: solid 5px #ffffff;
+}
+
+
 .menu-right {
     position: fixed;
     z-index: 99;
     color: white;
     right: 5%;
     top: calc(38% - 6%);
-    border: solid 2px #ffffff;
+    cursor: default;
+}
+
+.sub-menu-right {
+    position: fixed;
+    z-index: 99;
+    color: white;
+    right: 10.7%;
+    top: calc(43% - 6%);
     cursor: default;
 }
 
@@ -113,7 +126,7 @@ a {
     margin-left: -15px;
 }
 
-.con-close{
+.con-close {
     background: red;
 }
 
@@ -141,7 +154,6 @@ a {
     background-color: whitesmoke;
     padding: 4px 4px 0 4px;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
-
 }
 
 .btn-ocean {

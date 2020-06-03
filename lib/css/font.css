@@ -27,6 +27,15 @@
     text-orientation: upright;
 }
 
+.sub-side-menu {
+    font-family: Nexa;
+    font-size: 25px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-weight: 100;
+}
+
 .sub-header {
     margin: 10px 0;
     font-family: SFProDisplay-Regular;

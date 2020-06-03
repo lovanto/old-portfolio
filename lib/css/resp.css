@@ -81,6 +81,10 @@
         text-orientation: upright;
     }
 
+    .sub-menu-right {
+        visibility: hidden;
+    }
+
     .sub-header {
         margin: 10px 0;
         font-family: SFProDisplay-Regular;
