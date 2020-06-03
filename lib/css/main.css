@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     color: inherit;
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 article,
@@ -113,6 +113,10 @@ a {
     margin-left: -15px;
 }
 
+.con-close{
+    background: red;
+}
+
 .border {
     border: solid 1px #000000;
 }
@@ -128,7 +132,7 @@ a {
 
 .img-set-ava {
     position: absolute;
-    max-width: 25% !important;
+    max-width: 30% !important;
 }
 
 .btn-ocean {

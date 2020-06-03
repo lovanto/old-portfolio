@@ -1,25 +1,25 @@
-@font-face{
+@font-face {
     font-family: Nexa;
     src: url(/lib/font/Nexa.woff);
 }
 
-@font-face{
+@font-face {
     font-family: SFProDisplay-Regular;
     src: url(/lib/font/SFProDisplay-Regular.woff);
 }
 
-@font-face{
+@font-face {
     font-family: ProximaNovaReg;
     src: url(/lib/font/ProximaNovaReg.ttf);
 }
 
-.header{
+.header {
     font-family: Nexa;
     font-size: 40px;
     text-transform: uppercase;
 }
 
-.side-menu{
+.side-menu {
     font-family: Nexa;
     font-size: 25px;
     text-transform: uppercase;
@@ -27,17 +27,17 @@
     text-orientation: upright;
 }
 
-.sub-header{
+.sub-header {
     margin: 10px 0;
     font-family: SFProDisplay-Regular;
     font-size: 20px;
 }
 
-.close{
+.close {
     font-family: SFProDisplay-Regular;
     font-size: 20px;
 }
 
-.button{
+.button {
     font-family: ProximaNovaReg;
 }

@@ -6,7 +6,7 @@
         text-align: center;
         top: 3%;
     }
-    
+
     .side-menu {
         font-family: Nexa;
         font-size: 20px;
@@ -14,7 +14,7 @@
         writing-mode: horizontal-tb;
         text-orientation: upright;
     }
-    
+
     .landing {
         padding-top: 50px;
     }
@@ -43,13 +43,14 @@
 
     .landing-left {
         position: absolute;
-        top: calc(60% - 12%);
+        margin-top: 280px;
         padding-right: 35px;
+        margin-left: 10%;
     }
 
     .landing-right {
         position: absolute;
-        top: calc(12% - 2%);
+        margin-top: 10px;
         left: 10%;
     }
 
