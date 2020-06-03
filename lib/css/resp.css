@@ -7,6 +7,18 @@
         top: 3%;
     }
 
+    .menu-left{
+        visibility: hidden;
+    }
+
+    .sub-menu-right{
+        visibility: hidden;
+    }
+
+    .sub-menu-left{
+        visibility: hidden;
+    }
+
     .side-menu {
         font-family: Nexa;
         font-size: 20px;
@@ -47,14 +59,14 @@
 
     .landing-left {
         position: absolute;
-        margin-top: 280px;
+        margin-top: 250px;
         padding-right: 35px;
         margin-left: 10%;
     }
 
     .landing-right {
         position: absolute;
-        margin-top: 10px;
+        margin-top: 15px;
         left: 10%;
     }
 
@@ -66,9 +78,30 @@
         top: 3%;
     }
 
+    .menu-left {
+        visibility: hidden;
+    }
+
+    .sub-menu-left{
+        visibility: hidden;
+    }
+
     .icon-left {
         position: absolute;
         top: calc(9.5% - 6%);
+    }
+
+    .icon-right {
+        position: absolute;
+        top: calc(9.5% - 6%);
+    }
+
+    .copyright {
+        visibility: hidden;
+    }
+    
+    .footer-info {
+        visibility: hidden;
     }
 
     .header {
