@@ -17,6 +17,11 @@
     animation: glowing 3000ms infinite;
 }
 
+.roll-in-right {
+    -webkit-animation: roll-in-right 1s ease-out both;
+    animation: roll-in-right 1s ease-out both;
+}
+
 @-webkit-keyframes slide-left {
     0% {
         -webkit-transform: translateX(100px);
@@ -99,5 +104,31 @@
     }
     100% {
         text-shadow: 0 0 -10px #ffffff;
+    }
+}
+
+@-webkit-keyframes roll-in-right {
+    0% {
+        -webkit-transform: translateX(200px) rotate(540deg);
+        transform: translateX(200px) rotate(540deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0) rotate(0deg);
+        transform: translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes roll-in-right {
+    0% {
+        -webkit-transform: translateX(200px) rotate(540deg);
+        transform: translateX(200px) rotate(540deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0) rotate(0deg);
+        transform: translateX(0) rotate(0deg);
+        opacity: 1;
     }
 }

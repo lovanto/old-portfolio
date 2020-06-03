@@ -107,4 +107,8 @@
         max-width: 90% !important;
         left: -6%;
     }
+
+    .btn-ocean {
+        margin-left: 20%;
+    }
 }
