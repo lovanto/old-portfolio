@@ -36,6 +36,10 @@
         max-width: 100%;
     }
 
+    .main {
+        height: 120% !important;
+    }
+
     .landing {
         padding-top: 50px;
         height: 120% !important;

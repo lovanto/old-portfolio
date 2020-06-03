@@ -9,8 +9,8 @@
 }
 
 .scale-in-center {
-    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    -webkit-animation: scale-in-center 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: scale-in-center 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .glowing {
@@ -20,6 +20,14 @@
 .roll-in-right {
     -webkit-animation: roll-in-right 1s ease-out both;
     animation: roll-in-right 1s ease-out both;
+}
+
+.rotating {
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
 }
 
 @-webkit-keyframes slide-left {
@@ -132,3 +140,32 @@
         opacity: 1;
     }
 }
+
+@-webkit-keyframes rotating {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }

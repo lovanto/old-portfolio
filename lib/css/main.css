@@ -26,13 +26,42 @@ a {
     cursor: pointer;
 }
 
+.main {
+    position: absolute;
+    z-index: 90;
+    background: url(/img/belitung.JPG);
+    background-size: cover;
+    color: rgb(44, 44, 44);
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.copyright {
+    position: absolute;
+    z-index: 99;
+    top: 90% !important;
+    right: 5%;
+    width: auto !important;
+    padding: 8px 20px;
+    background: rgb(36, 36, 36, 0.5);
+    border-radius: 20px;
+    color: whitesmoke;
+    font-family: SFProDisplay-Regular;
+    cursor: pointer;
+}
+
+.copyright:hover {
+    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.4);
+}
+
 .landing {
+    position: absolute;
+    z-index: 80;
     background: black;
     background: linear-gradient(17deg, rgb(136, 84, 247) 0%, rgba(22, 121, 189, 1) 50%, rgb(7, 5, 56) 100%);
     color: ghostwhite;
     width: 100% !important;
     height: 100% !important;
-    position: absolute;
 }
 
 .landing-left {
@@ -47,16 +76,15 @@ a {
     position: fixed;
     z-index: 99;
     color: white;
-    right: 5%;
+    left: 5%;
     top: calc(38% - 6%);
     border: solid 2px #ffffff;
     cursor: default;
 }
 
-.menu-border{
+.menu-border {
     border: solid 5px #ffffff;
 }
-
 
 .menu-right {
     position: fixed;
@@ -67,11 +95,20 @@ a {
     cursor: default;
 }
 
+.sub-menu-left {
+    position: fixed;
+    z-index: 99;
+    color: white;
+    left: 10.7%;
+    top: calc(45% - 6%);
+    cursor: default;
+}
+
 .sub-menu-right {
     position: fixed;
     z-index: 99;
     color: white;
-    right: 10.7%;
+    right: 10.9%;
     top: calc(43% - 6%);
     cursor: default;
 }
@@ -101,19 +138,17 @@ a {
     z-index: 99;
     color: white;
     top: calc(15% - 6%);
-    right: 5%;
-    width: 20px;
-    height: 20px;
+    right: 5.5%;
+    width: 43px;
+    height: 43px;
     text-align: center;
-    border: solid 2px #ffffff;
-    padding: 8px 10px 12px 10px;
     transition: 300ms;
 }
 
-.icon-right:hover {
-    border: solid 2px red;
-    color: red;
-    transition: 300ms;
+.icon-setting {
+    padding: 1px 4px 0 0;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .row {
