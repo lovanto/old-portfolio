@@ -5,6 +5,20 @@
     margin: 0;
     padding: 0;
     color: inherit;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
 }
 
 a {
@@ -34,7 +48,7 @@ a {
     z-index: 99;
     color: white;
     right: 5%;
-    top: 38%;
+    top: calc(38% - 6%);
     border: solid 2px #ffffff;
     cursor: default;
 }
@@ -55,8 +69,8 @@ a {
     color: white;
     top: calc(15% - 6%);
     left: 5%;
-    width: 20px;
-    height: 20px;
+    width: 43px;
+    height: 43px;
     text-align: center;
     border: solid 2px #ffffff;
     padding: 8px 10px 12px 10px;
@@ -90,22 +104,31 @@ a {
 }
 
 .row {
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .border {
     border: solid 1px #000000;
 }
 
+.icon-circle {
+    border-radius: 100%;
+}
+
 .img-circle {
     border-radius: 100%;
+    border: solid 10px #ffffff;
 }
 
 .img-set-ava {
     position: absolute;
+    max-width: 25% !important;
 }
 
 .btn-ocean {

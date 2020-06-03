@@ -1,0 +1,109 @@
+@media screen and (max-width: 1024px) {
+    .menu-right {
+        position: absolute;
+        left: calc(33% - 2%);
+        right: calc(30% - 2%);
+        text-align: center;
+        top: 3%;
+    }
+    
+    .side-menu {
+        font-family: Nexa;
+        font-size: 20px;
+        text-transform: uppercase;
+        writing-mode: horizontal-tb;
+        text-orientation: upright;
+    }
+    
+    .landing {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .con-1,
+    .con-2,
+    .con-3,
+    .con-4,
+    .con-5,
+    .con-6,
+    .con-7,
+    .con-8,
+    .con-9,
+    .con-10 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .landing {
+        padding-top: 50px;
+        height: 120% !important;
+    }
+
+    .landing-left {
+        position: absolute;
+        top: calc(60% - 12%);
+        padding-right: 35px;
+    }
+
+    .landing-right {
+        position: absolute;
+        top: calc(12% - 2%);
+        left: 10%;
+    }
+
+    .menu-right {
+        position: absolute;
+        left: calc(33% - 2%);
+        right: 30%;
+        text-align: center;
+        top: 3%;
+    }
+
+    .icon-left {
+        position: absolute;
+        top: calc(9.5% - 6%);
+    }
+
+    .header {
+        font-family: Nexa;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    .side-menu {
+        font-family: Nexa;
+        font-size: 20px;
+        text-transform: uppercase;
+        writing-mode: horizontal-tb;
+        text-orientation: upright;
+    }
+
+    .sub-header {
+        margin: 10px 0;
+        font-family: SFProDisplay-Regular;
+        font-size: 20px;
+    }
+
+    .close {
+        font-family: SFProDisplay-Regular;
+        font-size: 20px;
+    }
+
+    .button {
+        font-family: ProximaNovaReg;
+    }
+
+    .img-circle {
+        border-radius: 10%;
+        border: none;
+        box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.2);
+    }
+
+    .img-set-ava {
+        position: relative;
+        max-width: 90% !important;
+        left: -6%;
+    }
+}

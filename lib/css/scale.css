@@ -1,87 +1,107 @@
-.container{
+.container {
     margin: 5% 10% !important;
     vertical-align: middle;
 }
 
 /* CONTAINER SETTING */
-.con-1{
-    width: 10%;
+.con-1 {
+    -ms-flex: 0 0 10%;
+    flex: 0 0 10%;
+    max-width: 10%;
 }
 
-.con-2{
-    width: 20%;
+.con-2 {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
 }
 
-.con-3{
-    width: 30%;
+.con-3 {
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
 }
 
-.con-4{
-    width: 40%;
+.con-4 {
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
 }
 
-.con-5{
-    width: 50%;
+.con-5 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
-.con-6{
-    width: 60%;
+.con-6 {
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
 }
 
-.con-7{
-    width: 70%;
+.con-7 {
+    -ms-flex: 0 0 70%;
+    flex: 0 0 70%;
+    max-width: 70%;
 }
 
-.con-8{
-    width: 80%;
+.con-8 {
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+    max-width: 80%;
 }
 
-.con-9{
-    width: 90%;
+.con-9 {
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
 }
 
-.con-10{
-    width: 100%;
+.con-10 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 /* PADDING SETTING */
-.pad-1{
+.pad-1 {
     padding: 10px;
 }
 
-.pad-2{
+.pad-2 {
     padding: 20px;
 }
 
-.pad-3{
+.pad-3 {
     padding: 30px;
 }
 
-.pad-4{
+.pad-4 {
     padding: 40px;
 }
 
-.pad-5{
+.pad-5 {
     padding: 50px;
 }
 
 /* MARGIN TOP SETTING */
-.mt-1{
+.mt-1 {
     margin-top: 10px;
 }
 
-.mt-2{
+.mt-2 {
     margin-top: 20px;
 }
 
-.mt-3{
+.mt-3 {
     margin-top: 30px;
 }
 
-.mt-4{
+.mt-4 {
     margin-top: 40px;
 }
 
-.mt-5{
+.mt-5 {
     margin-top: 50px;
 }
