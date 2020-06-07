@@ -38,6 +38,18 @@ a {
     color: rgb(44, 44, 44);
     width: 100% !important;
     height: 100% !important;
+    display: block;
+}
+
+.works {
+    position: absolute;
+    z-index: 90;
+    background: url(/img/sunset.JPG);
+    background-size: cover;
+    color: rgb(44, 44, 44);
+    width: 100% !important;
+    height: 100% !important;
+    display: none;
 }
 
 .copyright {
@@ -80,6 +92,7 @@ a {
     color: ghostwhite;
     width: 100% !important;
     height: 100% !important;
+    display: none;
 }
 
 .landing-left {
@@ -182,6 +195,7 @@ a {
 
 .con-close {
     background: red;
+    display: none;
 }
 
 .border {

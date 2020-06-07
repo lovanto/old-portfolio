@@ -18,18 +18,18 @@
 <body>
     <main>
         <article>
-            <a href="index.html" class="close">
-                <div class="icon-left icon-circle con-close scale-in-center">
+            <span class="close">
+                <div class="icon-left icon-circle con-close scale-in-center" id="btn-back">
                     &larr;
                 </div>
-            </a>
+            </span>
             <a href="index.html" class="close">
                 <div class="icon-right icon-circle scale-in-center">
                     <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/xnimrodx" title="xnimrodx">xnimrodx</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
                     <img src="/img/icon/settings.png" class="icon-setting rotating" alt="Settings" width="43">
                 </div>
             </a>
-            <div>
+            <div id="btn-about">
                 <div class="sub-menu-right sub-side-menu slide-left">
                     <span>私について</span>
                 </div>
@@ -37,12 +37,20 @@
                     <span onclick="showAbout()">About</span>
                 </div>
             </div>
-            <div>
+            <div id="btn-works">
                 <div class="sub-menu-left sub-side-menu slide-right">
                     <span>おしごと</span>
                 </div>
                 <div class="menu-left menu-border side-menu pad-1 slide-left">
-                    <span>Works</span>
+                    <span onclick="showWorks()">Works</span>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div class="works" id="works">
+                <div class="container" style="text-align: center;">
+                    <div class="super-header glowing" style="margin-top: 18%;">HELLO WORLD</div>
                 </div>
             </div>
         </article>
