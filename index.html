@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="/lib/css/font.css" />
     <link rel="stylesheet" type="text/css" href="/lib/css/resp.css" />
     <link rel="stylesheet" type="text/css" href="/lib/css/anim.css" />
+
+    <script src='/lib/js/page.js'></script>
 </head>
 
 <body>
@@ -32,7 +34,7 @@
                     <span>私について</span>
                 </div>
                 <div class="menu-right menu-border side-menu pad-1 slide-right">
-                    <span>About</span>
+                    <span onclick="showAbout()">About</span>
                 </div>
             </div>
             <div>
@@ -45,13 +47,13 @@
             </div>
         </article>
 
-        <!-- <article>
-            <div class="main">
+        <article>
+            <div class="main" id="main">
                 <div class="container" style="text-align: center;">
                     <div class="super-header glowing" style="margin-top: 18%;">HELLO WORLD</div>
                 </div>
             </div>
-        </article> -->
+        </article>
 
         <article>
             <div class="landing" id="about">
@@ -73,9 +75,10 @@
                                 <!-- <button class="btn-ocean mt-1 mb-1 button">Contact</button> I'll need it when this website online -->
                                 <div class="mt-1 ml-2">
                                     <div class="row">
-                                        <div class="icon-img ml-1 roll-in-right mt-1"><a href="https://github.com/lovanto"
-                                                target="_blank"><img src="/img/icon/github.png" class="icon-circle"
-                                                    alt="Github" width="35"></a>
+                                        <div class="icon-img ml-1 roll-in-right mt-1"><a
+                                                href="https://github.com/lovanto" target="_blank"><img
+                                                    src="/img/icon/github.png" class="icon-circle" alt="Github"
+                                                    width="35"></a>
                                         </div>
                                         <div class="icon-img ml-1 roll-in-right mt-1"><a
                                                 href="mailto:rifkylovanto@gmail.com?" target="_blank"><img
@@ -86,9 +89,10 @@
                                                 href="https://www.linkedin.com/in/lovantoo" target="_blank">
                                                 <img src="/img/icon/linkedin.png" class="icon-circle" alt="Github"
                                                     width="35"></a></div>
-                                        <div class="icon-img ml-1 roll-in-right mt-1"><a href="https://wa.me/6287823837566"
-                                                target="_blank"><img src="/img/icon/whatsapp.png" class="icon-circle"
-                                                    alt="Github" width="35"></a></div>
+                                        <div class="icon-img ml-1 roll-in-right mt-1"><a
+                                                href="https://wa.me/6287823837566" target="_blank"><img
+                                                    src="/img/icon/whatsapp.png" class="icon-circle" alt="Github"
+                                                    width="35"></a></div>
                                     </div>
                                 </div>
                             </div>

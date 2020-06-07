@@ -68,7 +68,7 @@ a {
     cursor: pointer;
 }
 
-.copyright:hover {
+.copyright:hover, .footer-info:hover {
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.4);
 }
 
@@ -98,7 +98,7 @@ a {
     left: 5%;
     top: calc(38% - 6%);
     border: solid 2px #ffffff;
-    cursor: default;
+    cursor: pointer;
 }
 
 .menu-border {
@@ -111,7 +111,7 @@ a {
     color: white;
     right: 5%;
     top: calc(38% - 7%);
-    cursor: default;
+    cursor: pointer;
 }
 
 .sub-menu-left {
