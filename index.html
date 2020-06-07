@@ -18,7 +18,7 @@
 <body>
     <main>
         <article>
-            <span class="close">
+            <span class="close" onclick="backAction()">
                 <div class="icon-left icon-circle con-close scale-in-center" id="btn-back">
                     &larr;
                 </div>
@@ -123,5 +123,15 @@
 
     </main>
 </body>
+
+<script>
+    var pageAbout = document.getElementById("about");
+    var pageMain = document.getElementById("main");
+    var pageWorks = document.getElementById("works");
+
+    var btnWorks = document.getElementById("btn-works");
+    var btnAbout = document.getElementById("btn-about");
+    var btnBack = document.getElementById("btn-back");
+</script>
 
 </html>

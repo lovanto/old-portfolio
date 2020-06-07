@@ -92,6 +92,7 @@ a {
     color: ghostwhite;
     width: 100% !important;
     height: 100% !important;
+    min-height: 760px !important;
     display: none;
 }
 
@@ -131,8 +132,8 @@ a {
     position: fixed;
     z-index: 99;
     color: white;
-    left: 10.7%;
-    top: calc(42% - 5.5%);
+    left: 10%;
+    top: calc(43% - 5.5%);
     cursor: default;
 }
 
@@ -196,6 +197,7 @@ a {
 .con-close {
     background: red;
     display: none;
+    cursor: pointer;
 }
 
 .border {

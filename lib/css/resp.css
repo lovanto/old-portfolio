@@ -11,34 +11,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .menu-right {
-        position: absolute;
-        left: calc(33% - 2%);
-        right: calc(30% - 2%);
-        text-align: center;
-        top: 3%;
-    }
-
-    .menu-left{
-        visibility: hidden;
-    }
-
-    .sub-menu-right{
-        visibility: hidden;
-    }
-
-    .sub-menu-left{
-        visibility: hidden;
-    }
-
-    .side-menu {
-        font-family: Nexa;
-        font-size: 20px;
-        text-transform: uppercase;
-        writing-mode: horizontal-tb;
-        text-orientation: upright;
-    }
-
     .landing {
         padding-top: 50px;
     }
@@ -91,11 +63,7 @@
     }
 
     .menu-right {
-        position: absolute;
-        left: calc(33% - 2%);
-        right: 30%;
-        text-align: center;
-        top: 3%;
+        visibility: hidden;
     }
 
     .menu-left {
@@ -103,6 +71,10 @@
     }
 
     .sub-menu-left{
+        visibility: hidden;
+    }
+
+    .sub-menu-right{
         visibility: hidden;
     }
 
@@ -136,10 +108,6 @@
         text-transform: uppercase;
         writing-mode: horizontal-tb;
         text-orientation: upright;
-    }
-
-    .sub-menu-right {
-        visibility: hidden;
     }
 
     .sub-header {
