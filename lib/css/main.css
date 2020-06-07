@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html{
+    background: #7959ef;
+}
+
 article,
 aside,
 figcaption,
@@ -80,6 +84,7 @@ a {
 
 .landing-left {
     font-weight: 100;
+    margin-top: calc(10% - 3%);
 }
 
 .landing-right {
@@ -105,7 +110,7 @@ a {
     z-index: 99;
     color: white;
     right: 5%;
-    top: calc(38% - 6%);
+    top: calc(38% - 7%);
     cursor: default;
 }
 
@@ -114,7 +119,7 @@ a {
     z-index: 99;
     color: white;
     left: 10.7%;
-    top: calc(45% - 6%);
+    top: calc(42% - 5.5%);
     cursor: default;
 }
 
@@ -123,7 +128,7 @@ a {
     z-index: 99;
     color: white;
     right: 10.9%;
-    top: calc(43% - 6%);
+    top: calc(41% - 6%);
     cursor: default;
 }
 
@@ -194,7 +199,8 @@ a {
 
 .img-set-ava {
     position: absolute;
-    max-width: 30% !important;
+    margin-top: calc(10% - 3%);
+    max-width: calc(38% - 10%) !important;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
 }
 

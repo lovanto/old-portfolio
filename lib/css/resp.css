@@ -1,3 +1,15 @@
+@media screen and (max-height: 550px) {
+
+    .copyright {
+        visibility: hidden;
+    }
+    
+    .footer-info {
+        visibility: hidden;
+    }
+
+}
+
 @media screen and (max-width: 1024px) {
     .menu-right {
         position: absolute;
@@ -30,6 +42,14 @@
     .landing {
         padding-top: 50px;
     }
+
+    .copyright {
+        visibility: hidden;
+    }
+    
+    .footer-info {
+        visibility: hidden;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -59,7 +79,7 @@
 
     .landing-left {
         position: absolute;
-        margin-top: 250px;
+        margin-top: 100%;
         padding-right: 35px;
         margin-left: 10%;
     }
