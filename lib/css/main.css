@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html{
+    background: #7959ef;
+}
+
 article,
 aside,
 figcaption,
@@ -34,6 +38,18 @@ a {
     color: rgb(44, 44, 44);
     width: 100% !important;
     height: 100% !important;
+    display: block;
+}
+
+.works {
+    position: absolute;
+    z-index: 90;
+    background: url(/img/sunset.JPG);
+    background-size: cover;
+    color: rgb(44, 44, 44);
+    width: 100% !important;
+    height: 100% !important;
+    display: none;
 }
 
 .copyright {
@@ -64,7 +80,7 @@ a {
     cursor: pointer;
 }
 
-.copyright:hover {
+.copyright:hover, .footer-info:hover {
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.4);
 }
 
@@ -76,10 +92,13 @@ a {
     color: ghostwhite;
     width: 100% !important;
     height: 100% !important;
+    min-height: 760px !important;
+    display: none;
 }
 
 .landing-left {
     font-weight: 100;
+    margin-top: calc(10% - 3%);
 }
 
 .landing-right {
@@ -93,7 +112,7 @@ a {
     left: 5%;
     top: calc(38% - 6%);
     border: solid 2px #ffffff;
-    cursor: default;
+    cursor: pointer;
 }
 
 .menu-border {
@@ -105,16 +124,16 @@ a {
     z-index: 99;
     color: white;
     right: 5%;
-    top: calc(38% - 6%);
-    cursor: default;
+    top: calc(38% - 7%);
+    cursor: pointer;
 }
 
 .sub-menu-left {
     position: fixed;
     z-index: 99;
     color: white;
-    left: 10.7%;
-    top: calc(45% - 6%);
+    left: 10%;
+    top: calc(43% - 5.5%);
     cursor: default;
 }
 
@@ -123,7 +142,7 @@ a {
     z-index: 99;
     color: white;
     right: 10.9%;
-    top: calc(43% - 6%);
+    top: calc(41% - 6%);
     cursor: default;
 }
 
@@ -177,6 +196,8 @@ a {
 
 .con-close {
     background: red;
+    display: none;
+    cursor: pointer;
 }
 
 .border {
@@ -194,7 +215,8 @@ a {
 
 .img-set-ava {
     position: absolute;
-    max-width: 30% !important;
+    margin-top: calc(10% - 3%);
+    max-width: calc(38% - 10%) !important;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
 }
 
@@ -222,4 +244,24 @@ a {
     -moz-transition: background-color 300ms ease-out;
     -o-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out;
+}
+
+.menu-mobile-border{
+    border: solid 3px #ffffff;
+    border-radius: 10px;
+    height: 250px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    display: none;
+    cursor: pointer;
+}
+
+.background-works{
+    background: url(/img/sunset.JPG);
+    background-size: cover;
+}
+
+.background-about{
+    background: url(/img/belitung.JPG);
+    background-size: cover;
 }
