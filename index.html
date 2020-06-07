@@ -50,15 +50,19 @@
         <article>
             <div class="works" id="works">
                 <div class="container" style="text-align: center;">
-                    <div class="super-header glowing" style="margin-top: 18%;">HELLO WORLD</div>
+                    <div class="super-header glowing" style="margin-top: 30%;">HELLO WORLD</div>
                 </div>
             </div>
         </article>
 
         <article>
             <div class="main" id="main">
-                <div class="container" style="text-align: center;">
-                    <div class="super-header glowing" style="margin-top: 18%;">HELLO WORLD</div>
+                <div class="super-header container" style="text-align: center;">
+                    HELLO WORLD
+                    <div class="menu-header" style="margin-top: 6%;">
+                        <span onclick="showWorks()"><div class="menu-mobile-border background-works">WORKS</div></span>
+                        <span onclick="showAbout()"><div class="menu-mobile-border background-about">ABOUT</div></span>
+                    </div>
                 </div>
             </div>
         </article>
@@ -128,6 +132,7 @@
     var pageAbout = document.getElementById("about");
     var pageMain = document.getElementById("main");
     var pageWorks = document.getElementById("works");
+    var pageMenuMobile = document.getElementById("menu-mobile");
 
     var btnWorks = document.getElementById("btn-works");
     var btnAbout = document.getElementById("btn-about");

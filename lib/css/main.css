@@ -245,3 +245,23 @@ a {
     -o-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out;
 }
+
+.menu-mobile-border{
+    border: solid 3px #ffffff;
+    border-radius: 10px;
+    height: 250px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    display: none;
+    cursor: pointer;
+}
+
+.background-works{
+    background: url(/img/sunset.JPG);
+    background-size: cover;
+}
+
+.background-about{
+    background: url(/img/belitung.JPG);
+    background-size: cover;
+}

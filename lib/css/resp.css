@@ -1,9 +1,13 @@
 @media screen and (max-height: 550px) {
 
+    .menu-mobile-border {
+        display: block;
+    }
+
     .copyright {
         visibility: hidden;
     }
-    
+
     .footer-info {
         visibility: hidden;
     }
@@ -11,6 +15,23 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+    .menu-right {
+        visibility: hidden;
+    }
+
+    .menu-left {
+        visibility: hidden;
+    }
+
+    .sub-menu-left {
+        visibility: hidden;
+    }
+
+    .sub-menu-right {
+        visibility: hidden;
+    }
+
     .landing {
         padding-top: 50px;
     }
@@ -18,13 +39,14 @@
     .copyright {
         visibility: hidden;
     }
-    
+
     .footer-info {
         visibility: hidden;
     }
 }
 
 @media screen and (max-width: 700px) {
+
     .con-1,
     .con-2,
     .con-3,
@@ -70,11 +92,11 @@
         visibility: hidden;
     }
 
-    .sub-menu-left{
+    .sub-menu-left {
         visibility: hidden;
     }
 
-    .sub-menu-right{
+    .sub-menu-right {
         visibility: hidden;
     }
 
@@ -91,7 +113,7 @@
     .copyright {
         visibility: hidden;
     }
-    
+
     .footer-info {
         visibility: hidden;
     }
@@ -140,4 +162,9 @@
     .btn-ocean {
         margin-left: 20%;
     }
+
+    .menu-mobile-border {
+        display: block;
+    }
+
 }
