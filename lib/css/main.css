@@ -35,6 +35,7 @@ a {
     z-index: 90;
     background: url(/img/belitung.JPG);
     background-size: cover;
+    background-attachment: fixed;
     color: rgb(44, 44, 44);
     width: 100% !important;
     height: 100% !important;
@@ -44,11 +45,12 @@ a {
 .works {
     position: absolute;
     z-index: 90;
-    background: url(/img/sunset.JPG);
-    background-size: cover;
+    /* background: url(/img/sunset.JPG);
+    background-size: cover; */
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
     color: rgb(44, 44, 44);
     width: 100% !important;
-    height: 100% !important;
     display: none;
 }
 
@@ -92,7 +94,6 @@ a {
     color: ghostwhite;
     width: 100% !important;
     height: 100% !important;
-    min-height: 760px !important;
     display: none;
 }
 
@@ -197,6 +198,7 @@ a {
     background: red;
     display: none;
     cursor: pointer;
+    box-shadow: 3px 2px 5px -1px rgba(0, 0, 0, 0.4);
 }
 
 .border {
@@ -263,4 +265,9 @@ a {
 .background-about{
     background: url(/img/belitung.JPG);
     background-size: cover;
+}
+
+.works-card{
+    width: 100% !important;
+    height: 200px !important;
 }
