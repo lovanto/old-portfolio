@@ -159,9 +159,16 @@ a {
     transition: 300ms;
 }
 
+.con-close {
+    background: red;
+    display: none;
+    cursor: pointer;
+    box-shadow: 3px 2px 5px -1px rgba(0, 0, 0, 0.4);
+}
+
 .icon-left:hover {
-    border: solid 2px crimson;
-    color: crimson;
+    border: solid 2px orangered;
+    color: orangered;
     transition: 500ms;
 }
 
@@ -191,13 +198,6 @@ a {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-}
-
-.con-close {
-    background: red;
-    display: none;
-    cursor: pointer;
-    box-shadow: 3px 2px 5px -1px rgba(0, 0, 0, 0.4);
 }
 
 .border {
@@ -267,8 +267,10 @@ a {
 }
 
 .works-card{
-    width: 200px !important;
-    height: 200px !important;
+    min-width: 200px !important;
+    min-height: 200px !important;
+    max-width: 200px !important;
+    max-height: 200px !important;
     border-radius: 7px;
     box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.3);
 }

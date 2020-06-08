@@ -12,6 +12,10 @@
         visibility: hidden;
     }
 
+    .works-card{
+        max-width: 100% !important;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -46,6 +50,10 @@
 
     .footer-info {
         visibility: hidden;
+    }
+    
+    .works-card{
+        max-width: 100% !important;
     }
 }
 
@@ -169,6 +177,10 @@
 
     .menu-mobile-border {
         display: block;
+    }
+
+    .works-card{
+        max-width: 100% !important;
     }
 
 }
