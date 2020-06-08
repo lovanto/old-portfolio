@@ -45,10 +45,7 @@ a {
 .works {
     position: absolute;
     z-index: 90;
-    /* background: url(/img/sunset.JPG);
-    background-size: cover; */
-    background-color: rgb(255, 255, 255);
-    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 1);
     color: rgb(44, 44, 44);
     width: 100% !important;
     min-height: 100%;
@@ -163,9 +160,9 @@ a {
 }
 
 .icon-left:hover {
-    border: solid 2px red;
-    color: red;
-    transition: 300ms;
+    border: solid 2px crimson;
+    color: crimson;
+    transition: 500ms;
 }
 
 .icon-right {
@@ -260,7 +257,7 @@ a {
 }
 
 .background-works{
-    background: url(/img/sunset.JPG);
+    background: url(/img/sunset.jpg);
     background-size: cover;
 }
 
@@ -272,11 +269,12 @@ a {
 .works-card{
     width: 200px !important;
     height: 200px !important;
-    border-radius: 10px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 .works-card:hover{
-    border: solid 2px red;
-    color: red;
-    transition: 300ms;
+    border: solid 15px white;
+    cursor: pointer;
+    transition: 400ms;
 }
