@@ -85,6 +85,27 @@
     padding: 50px;
 }
 
+/* MARGIN SETTING */
+.mar-1 {
+    margin: 10px;
+}
+
+.mar-2 {
+    margin: 20px;
+}
+
+.mar-3 {
+    margin: 30px;
+}
+
+.mar-4 {
+    margin: 40px;
+}
+
+.pad-5 {
+    padding: 50px;
+}
+
 /* MARGIN TOP SETTING */
 .mt-1 {
     margin-top: 10px;
