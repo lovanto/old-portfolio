@@ -33,7 +33,7 @@ a {
 .main {
     position: absolute;
     z-index: 90;
-    background: url(/img/belitung.JPG);
+    background: url("https://raw.githubusercontent.com/lovanto/background-image/master/harbor/belitung.JPG");
     background-size: cover;
     background-attachment: fixed;
     color: rgb(44, 44, 44);
@@ -257,12 +257,12 @@ a {
 }
 
 .background-works{
-    background: url(/img/sunset.jpg);
+    background: url("https://raw.githubusercontent.com/lovanto/background-image/master/harbor/belitung.JPG");
     background-size: cover;
 }
 
 .background-about{
-    background: url(/img/belitung.JPG);
+    background: url("https://raw.githubusercontent.com/lovanto/background-image/master/harbor/belitung.JPG");
     background-size: cover;
 }
 
