@@ -17,7 +17,6 @@
     font-family: Nexa;
     font-size: 60px;
     text-transform: uppercase;
-    color: white;
 }
 
 .header {
@@ -36,17 +35,18 @@
 
 .sub-side-menu {
     font-family: Nexa;
-    font-size: 25px;
+    font-size: 23px;
     text-transform: uppercase;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .sub-header {
     margin: 10px 0;
     font-family: SFProDisplay-Regular;
     font-size: 20px;
+    font-weight: 500;
 }
 
 .close {

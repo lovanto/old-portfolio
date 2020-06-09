@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     background: #7959ef;
 }
 
@@ -80,7 +80,8 @@ a {
     cursor: pointer;
 }
 
-.copyright:hover, .footer-info:hover {
+.copyright:hover,
+.footer-info:hover {
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.4);
 }
 
@@ -88,8 +89,8 @@ a {
     position: absolute;
     z-index: 80;
     background: black;
-    background: linear-gradient(0deg, rgb(121,89,239) 0%, rgba(22, 121, 189, 1) 40%, rgb(7, 5, 56) 100%);
-    color: ghostwhite;
+    background: rgb(255, 255, 255);
+    color: #2c2c2c;
     width: 100% !important;
     height: auto;
     min-height: 100%;
@@ -109,22 +110,28 @@ a {
     position: fixed;
     z-index: 99;
     color: white;
-    left: 5%;
+    left: 6.5%;
     top: calc(38% - 6%);
     cursor: pointer;
-}
-
-.menu-border {
-    border: solid 5px #ffffff;
 }
 
 .menu-right {
     position: fixed;
     z-index: 99;
     color: white;
-    right: 5%;
+    right: 7%;
     top: calc(38% - 7%);
     cursor: pointer;
+}
+
+.menu-left:hover {
+    border-right: solid 5px #ffffff;
+    transition: 300ms;
+}
+
+.menu-right:hover {
+    border-left: solid 5px #ffffff;
+    transition: 300ms;
 }
 
 .sub-menu-left {
@@ -132,7 +139,7 @@ a {
     z-index: 99;
     color: white;
     left: 10%;
-    top: calc(43% - 5.5%);
+    top: calc(42% - 5.5%);
     cursor: default;
 }
 
@@ -141,7 +148,7 @@ a {
     z-index: 99;
     color: white;
     right: 10.9%;
-    top: calc(41% - 6%);
+    top: calc(40% - 6%);
     cursor: default;
 }
 
@@ -161,14 +168,15 @@ a {
 
 .con-close {
     background: red;
+    color: black;
     display: none;
     cursor: pointer;
-    box-shadow: 3px 2px 5px -1px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 .icon-left:hover {
-    border: solid 2px orangered;
-    color: orangered;
+    border: solid 2px rgb(218, 14, 14);
+    color: rgb(218, 14, 14);
     transition: 500ms;
 }
 
@@ -210,21 +218,21 @@ a {
 
 .img-circle {
     border-radius: 100%;
-    border: solid 10px #ffffff;
+    border: solid 8px #ffffff;
 }
 
 .img-set-ava {
     position: absolute;
-    margin-top: calc(10% - 3%);
-    max-width: calc(38% - 10%) !important;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+    margin-top: calc(9% - 3%);
+    max-width: calc(33% - 10%) !important;
+    box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .icon-img {
     border-radius: 100%;
     background-color: whitesmoke;
     padding: 4px 4px 0 4px;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
 .btn-ocean {
@@ -246,7 +254,7 @@ a {
     transition: background-color 300ms ease-out;
 }
 
-.menu-mobile-border{
+.menu-mobile-border {
     border: solid 5px #ffffff;
     border-radius: 10px;
     height: 300px;
@@ -256,27 +264,78 @@ a {
     cursor: pointer;
 }
 
-.background-works{
-    background: url("https://raw.githubusercontent.com/lovanto/background-image/master/harbor/belitung.JPG");
+.background-web-1 {
+    background: url(/img/libon.png);
     background-size: cover;
+    padding-top: 170px;
 }
 
-.background-about{
-    background: url("https://raw.githubusercontent.com/lovanto/background-image/master/harbor/belitung.JPG");
+.background-web-2 {
+    background: url(/img/sibunda.jpg);
     background-size: cover;
+    padding-top: 170px;
 }
 
-.works-card{
-    min-width: 200px !important;
-    min-height: 200px !important;
-    max-width: 200px !important;
-    max-height: 200px !important;
+.background-web-3 {
+    background: url(/img/blog.jpg);
+    background-size: cover;
+    padding-top: 170px;
+}
+
+.background-web-4 {
+    background: url(/img/pam.png);
+    background-size: cover;
+    padding-top: 170px;
+}
+
+.background-web-5 {
+    background: url(/img/aurora.jpg);
+    background-size: cover;
+    padding-top: 170px;
+}
+
+.background-andro-1 {
+    background: url(/img/github.png);
+    background-size: cover;
+    padding-top: 170px;
+}
+
+.background-andro-2 {
+    background: url(/img/bookon.png);
+    background-size: cover;
+    padding-top: 170px;
+}
+
+.background-andro-3 {
+    background: url(/img/mma.png);
+    background-size: cover;
+    padding-top: 170px;
+}
+
+.works-card {
+    min-width: 225px !important;
+    min-height: 225px !important;
+    max-width: 225px !important;
+    max-height: 225px !important;
     border-radius: 7px;
     box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
-.works-card:hover{
-    border: solid 15px white;
+.works-card:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+
     cursor: pointer;
-    transition: 400ms;
+}
+
+.badge-default {
+    padding: 8px;
+    background: rgb(36, 36, 36, 0.7);
 }
