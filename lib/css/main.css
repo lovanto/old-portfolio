@@ -33,7 +33,7 @@ a {
 .main {
     position: absolute;
     z-index: 90;
-    background: url(/img/belitung.JPG);
+    background: url("https://raw.githubusercontent.com/lovanto/background-image/master/harbor/belitung.JPG");
     background-size: cover;
     background-attachment: fixed;
     color: rgb(44, 44, 44);
@@ -45,10 +45,7 @@ a {
 .works {
     position: absolute;
     z-index: 90;
-    /* background: url(/img/sunset.JPG);
-    background-size: cover; */
-    background-color: rgb(255, 255, 255);
-    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 1);
     color: rgb(44, 44, 44);
     width: 100% !important;
     min-height: 100%;
@@ -91,7 +88,7 @@ a {
     position: absolute;
     z-index: 80;
     background: black;
-    background: linear-gradient(17deg, rgb(136, 84, 247) 0%, rgba(22, 121, 189, 1) 50%, rgb(7, 5, 56) 100%);
+    background: linear-gradient(0deg, rgb(121,89,239) 0%, rgba(22, 121, 189, 1) 40%, rgb(7, 5, 56) 100%);
     color: ghostwhite;
     width: 100% !important;
     height: auto;
@@ -162,10 +159,17 @@ a {
     transition: 300ms;
 }
 
+.con-close {
+    background: red;
+    display: none;
+    cursor: pointer;
+    box-shadow: 3px 2px 5px -1px rgba(0, 0, 0, 0.4);
+}
+
 .icon-left:hover {
-    border: solid 2px red;
-    color: red;
-    transition: 300ms;
+    border: solid 2px orangered;
+    color: orangered;
+    transition: 500ms;
 }
 
 .icon-right {
@@ -194,13 +198,6 @@ a {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-}
-
-.con-close {
-    background: red;
-    display: none;
-    cursor: pointer;
-    box-shadow: 3px 2px 5px -1px rgba(0, 0, 0, 0.4);
 }
 
 .border {
@@ -260,23 +257,26 @@ a {
 }
 
 .background-works{
-    background: url(/img/sunset.JPG);
+    background: url("https://raw.githubusercontent.com/lovanto/background-image/master/harbor/belitung.JPG");
     background-size: cover;
 }
 
 .background-about{
-    background: url(/img/belitung.JPG);
+    background: url("https://raw.githubusercontent.com/lovanto/background-image/master/harbor/belitung.JPG");
     background-size: cover;
 }
 
 .works-card{
-    width: 200px !important;
-    height: 200px !important;
-    border-radius: 10px;
+    min-width: 200px !important;
+    min-height: 200px !important;
+    max-width: 200px !important;
+    max-height: 200px !important;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 .works-card:hover{
-    border: solid 2px red;
-    color: red;
-    transition: 300ms;
+    border: solid 15px white;
+    cursor: pointer;
+    transition: 400ms;
 }
