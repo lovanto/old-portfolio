@@ -33,7 +33,7 @@ a {
 .main {
     position: absolute;
     z-index: 90;
-    background: url("https://raw.githubusercontent.com/lovanto/background-image/master/harbor/belitung.JPG");
+    background: rgb(36, 36, 36, 0.5);
     background-size: cover;
     background-attachment: fixed;
     color: rgb(44, 44, 44);
@@ -265,14 +265,15 @@ a {
 }
 
 .background-web-1 {
-    background: url(/img/libon.png);
+    background: url('https://raw.githubusercontent.com/lovanto/libon/master/images/background/perpus2.jpg');
     background-size: cover;
     padding-top: 170px;
 }
 
 .background-web-2 {
-    background: url(/img/sibunda.jpg);
+    background: url('https://raw.githubusercontent.com/lovanto/sibunda/master/images/background/header.png');
     background-size: cover;
+    background-position: right;
     padding-top: 170px;
 }
 
