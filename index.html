@@ -11,8 +11,6 @@
     <link rel="stylesheet" type="text/css" href="/lib/css/font.css" />
     <link rel="stylesheet" type="text/css" href="/lib/css/resp.css" />
     <link rel="stylesheet" type="text/css" href="/lib/css/anim.css" />
-
-    <script src='/lib/js/page.js'></script>
 </head>
 
 <body>
@@ -52,13 +50,13 @@
                             <div class="con-2 works-card mar-1 background-web-4" id="btnPamAir">
                                 <div class="badge-default">PAM AIR</div>
                             </div>
-                            <div class="con-2 works-card mar-1 background-web-1">
+                            <div class="con-2 works-card mar-1 background-web-1" id="btnLibon">
                                 <div class="badge-default">ONLINE LIBRARY</div>
                             </div>
-                            <div class="con-2 works-card mar-1 background-web-2">
+                            <div class="con-2 works-card mar-1 background-web-2" id="btnSiBunda">
                                 <div class="badge-default">SIBUNDA</div>
                             </div>
-                            <div class="con-2 works-card mar-1 background-web-3">
+                            <div class="con-2 works-card mar-1 background-web-3" id="btnBlog">
                                 <div class="badge-default">PERSONAL BLOG</div>
                             </div>
                         </div>
@@ -66,13 +64,13 @@
                     <div class="row mb-3">
                         <div class="con-3 header">Android</div>
                         <div class="row con-7 sub-header" style="color: white; font-weight: bolder;">
-                            <div class="con-2 works-card mar-1 background-andro-1">
+                            <div class="con-2 works-card mar-1 background-andro-1" id="btnGithubApp">
                                 <div class="badge-default">GITHUB API APP</div>
                             </div>
-                            <div class="con-2 works-card mar-1 background-andro-2">
+                            <div class="con-2 works-card mar-1 background-andro-2" id="btnBookon">
                                 <div class="badge-default">BOOKON</div>
                             </div>
-                            <div class="con-2 works-card mar-1 background-andro-3">
+                            <div class="con-2 works-card mar-1 background-andro-3" id="btnMMA">
                                 <div class="badge-default">MMA</div>
                             </div>
                         </div>
@@ -94,15 +92,59 @@
                     <p>Some text in the Modal..</p>
                 </div>
             </div>
+            <div id="modalPamAir" class="modal">
+                <div class="modal-content slide-bottom">
+                    <span class="close-modal">&times;</span>
+                    <p>Some text in the Modal..</p>
+                    <p>Some text in the Modal..</p>
+                    <p>Some text in the Modal..</p>
+                </div>
+            </div>
+            <div id="modalLibon" class="modal">
+                <div class="modal-content slide-bottom">
+                    <span class="close-modal">&times;</span>
+                    <p>Some text in the Modal..</p>
+                </div>
+            </div>
+            <div id="modalSiBunda" class="modal">
+                <div class="modal-content slide-bottom">
+                    <span class="close-modal">&times;</span>
+                    <p>Some text in the Modal..</p>
+                </div>
+            </div>
+            <div id="modalBlog" class="modal">
+                <div class="modal-content slide-bottom">
+                    <span class="close-modal">&times;</span>
+                    <p>Some text in the Modal..</p>
+                </div>
+            </div>
+            <div id="modalGithubApp" class="modal">
+                <div class="modal-content slide-bottom">
+                    <span class="close-modal">&times;</span>
+                    <p>Some text in the Modal..</p>
+                </div>
+            </div>
+            <div id="modalBookon" class="modal">
+                <div class="modal-content slide-bottom">
+                    <span class="close-modal">&times;</span>
+                    <p>Some text in the Modal..</p>
+                </div>
+            </div>
+            <div id="modalMMA" class="modal">
+                <div class="modal-content slide-bottom">
+                    <span class="close-modal">&times;</span>
+                    <p>Some text in the Modal..</p>
+                </div>
+            </div>
         </article>
 
         <article>
             <div class="main" id="main">
                 <div class="super-header container" style="text-align: center;">
-                    <div style="margin-top: 25%; color: white;">WELCOME</div>
+                    <div style="margin-top: 25%;">WELCOME</div>
                     <div class="menu-header" style="margin-top: 10%;">
                         <span onclick="showWorks()">
-                            <div class="menu-mobile-border background-web-5" style="padding-top: 120px; color: white;">
+                            <div class="menu-mobile-border background-web-5" style="padding-top: 120px;">
                                 WORKS</div>
                         </span>
                         <span onclick="showAbout()">
@@ -175,48 +217,7 @@
     </main>
 </body>
 
-<script>
-    var pageAbout = document.getElementById("about");
-    var pageMain = document.getElementById("main");
-    var pageWorks = document.getElementById("works");
-
-    var btnWorks = document.getElementById("btn-works");
-    var btnAbout = document.getElementById("btn-about");
-    var btnBack = document.getElementById("btn-back");
-
-    var copyright = document.getElementById("copyright");
-    var info = document.getElementById("info");
-
-    pageAbout.style.display = "none";
-    pageWorks.style.display = "none";
-
-    // MODAL SETTINGS
-    var modalAurora = document.getElementById("modalAurora");
-
-    var btnAurora = document.getElementById("btnAurora");
-    var btnPamAir = document.getElementById("btnPamAir");
-    var btnLibon = document.getElementById("btnLibon");
-    var btnSiBunda = document.getElementById("btnSiBunda");
-    var btnBlog = document.getElementById("btnBlog");
-    var btnGithubApp = document.getElementById("btnGithubApp");
-    var btnBookon = document.getElementById("btnBookon");
-    var btnMMA = document.getElementById("btnMMA");
-
-    var span = document.getElementsByClassName("close-modal")[0];
-
-    btnAurora.onclick = function () {
-        modalAurora.style.display = "block";
-    }
-
-    span.onclick = function () {
-        modalAurora.style.display = "none";
-    }
-
-    window.onclick = function (event) {
-        if (event.target == modalAurora) {
-            modalAurora.style.display = "none";
-        }
-    }
-</script>
+<script src='/lib/js/page.js'></script>
+<script src='/lib/js/modal.js'></script>
 
 </html>

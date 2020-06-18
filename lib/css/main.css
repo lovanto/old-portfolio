@@ -33,7 +33,7 @@ a {
 .main {
     position: absolute;
     z-index: 90;
-    background: rgb(36, 36, 36, 0.5);
+    background: #ffffff;
     background-size: cover;
     background-attachment: fixed;
     color: rgb(44, 44, 44);
@@ -109,7 +109,7 @@ a {
 .menu-left {
     position: fixed;
     z-index: 99;
-    color: white;
+    color: rgb(44, 44, 44);
     left: 6.5%;
     top: calc(38% - 6%);
     cursor: pointer;
@@ -118,19 +118,19 @@ a {
 .menu-right {
     position: fixed;
     z-index: 99;
-    color: white;
+    color: rgb(44, 44, 44);
     right: 7%;
     top: calc(38% - 7%);
     cursor: pointer;
 }
 
 .menu-left:hover {
-    border-right: solid 5px #ffffff;
+    border-right: solid 5px rgb(44, 44, 44);
     transition: 300ms;
 }
 
 .menu-right:hover {
-    border-left: solid 5px #ffffff;
+    border-left: solid 5px rgb(44, 44, 44);
     transition: 300ms;
 }
 
