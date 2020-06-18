@@ -46,21 +46,52 @@
                     <div class="row mb-3">
                         <div class="con-3 header">Website</div>
                         <div class="row con-7 sub-header" style="color: white; font-weight: bolder;">
-                            <div class="con-2 works-card mar-1 background-web-5"><div class="badge-default">AURORA</div></div>
-                            <div class="con-2 works-card mar-1 background-web-4"><div class="badge-default">PAM AIR</div></div>
-                            <div class="con-2 works-card mar-1 background-web-1"><div class="badge-default">ONLINE LIBRARY</div></div>
-                            <div class="con-2 works-card mar-1 background-web-2"><div class="badge-default">SIBUNDA</div></div>
-                            <div class="con-2 works-card mar-1 background-web-3"><div class="badge-default">PERSONAL BLOG</div></div>
+                            <div class="con-2 works-card mar-1 background-web-5" id="btnAurora">
+                                <div class="badge-default">AURORA</div>
+                            </div>
+                            <div class="con-2 works-card mar-1 background-web-4" id="btnPamAir">
+                                <div class="badge-default">PAM AIR</div>
+                            </div>
+                            <div class="con-2 works-card mar-1 background-web-1">
+                                <div class="badge-default">ONLINE LIBRARY</div>
+                            </div>
+                            <div class="con-2 works-card mar-1 background-web-2">
+                                <div class="badge-default">SIBUNDA</div>
+                            </div>
+                            <div class="con-2 works-card mar-1 background-web-3">
+                                <div class="badge-default">PERSONAL BLOG</div>
+                            </div>
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="con-3 header">Android</div>
                         <div class="row con-7 sub-header" style="color: white; font-weight: bolder;">
-                            <div class="con-2 works-card mar-1 background-andro-1"><div class="badge-default">GITHUB API APP</div></div>
-                            <div class="con-2 works-card mar-1 background-andro-2"><div class="badge-default">BOOKON</div></div>
-                            <div class="con-2 works-card mar-1 background-andro-3"><div class="badge-default">MMA</div></div>
+                            <div class="con-2 works-card mar-1 background-andro-1">
+                                <div class="badge-default">GITHUB API APP</div>
+                            </div>
+                            <div class="con-2 works-card mar-1 background-andro-2">
+                                <div class="badge-default">BOOKON</div>
+                            </div>
+                            <div class="con-2 works-card mar-1 background-andro-3">
+                                <div class="badge-default">MMA</div>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div id="modalAurora" class="modal">
+                <div class="modal-content slide-bottom">
+                    <span class="close-modal">&times;</span>
+                    <p>Some text in the Modal..</p>
+                    <p>Some text in the Modal..</p>
+                    <p>Some text in the Modal..</p>
+                    <p>Some text in the Modal..</p>
+                    <p>Some text in the Modal..</p>
+                    <p>Some text in the Modal..</p>
+                    <p>Some text in the Modal..</p>
                 </div>
             </div>
         </article>
@@ -71,7 +102,8 @@
                     <div style="margin-top: 25%; color: white;">WELCOME</div>
                     <div class="menu-header" style="margin-top: 10%;">
                         <span onclick="showWorks()">
-                            <div class="menu-mobile-border background-web-5" style="padding-top: 120px; color: white;">WORKS</div>
+                            <div class="menu-mobile-border background-web-5" style="padding-top: 120px; color: white;">
+                                WORKS</div>
                         </span>
                         <span onclick="showAbout()">
                             <div class="menu-mobile-border background-about">ABOUT</div>
@@ -157,6 +189,34 @@
 
     pageAbout.style.display = "none";
     pageWorks.style.display = "none";
+
+    // MODAL SETTINGS
+    var modalAurora = document.getElementById("modalAurora");
+
+    var btnAurora = document.getElementById("btnAurora");
+    var btnPamAir = document.getElementById("btnPamAir");
+    var btnLibon = document.getElementById("btnLibon");
+    var btnSiBunda = document.getElementById("btnSiBunda");
+    var btnBlog = document.getElementById("btnBlog");
+    var btnGithubApp = document.getElementById("btnGithubApp");
+    var btnBookon = document.getElementById("btnBookon");
+    var btnMMA = document.getElementById("btnMMA");
+
+    var span = document.getElementsByClassName("close-modal")[0];
+
+    btnAurora.onclick = function () {
+        modalAurora.style.display = "block";
+    }
+
+    span.onclick = function () {
+        modalAurora.style.display = "none";
+    }
+
+    window.onclick = function (event) {
+        if (event.target == modalAurora) {
+            modalAurora.style.display = "none";
+        }
+    }
 </script>
 
 </html>
