@@ -299,6 +299,18 @@ a {
     padding-top: 170px;
 }
 
+.background-web-6 {
+    background: url(/img/aurora.jpg);
+    background-size: cover;
+    padding-top: 170px;
+}
+
+.background-web-7 {
+    background: url(/img/covid.png);
+    background-size: cover;
+    padding-top: 170px;
+}
+
 .background-andro-1 {
     background: url(/img/github.png);
     background-size: cover;
