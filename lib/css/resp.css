@@ -12,7 +12,7 @@
         visibility: hidden;
     }
 
-    .works-card{
+    .works-card {
         max-width: 100% !important;
     }
 
@@ -51,8 +51,8 @@
     .footer-info {
         visibility: hidden;
     }
-    
-    .works-card{
+
+    .works-card {
         max-width: 100% !important;
     }
 }
@@ -179,8 +179,11 @@
         display: block;
     }
 
-    .works-card{
+    .works-card {
         max-width: 100% !important;
     }
+
+    .modal-content {
+        padding: 50px 5%;
 
 }

@@ -59,9 +59,10 @@ a {
     right: 5%;
     width: auto !important;
     padding: 8px 20px;
-    background: rgb(36, 36, 36, 0.5);
+    background: rgb(255, 255, 255, 1);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
-    color: whitesmoke;
+    color: rgb(44, 44, 44);
     font-family: SFProDisplay-Regular;
     cursor: pointer;
 }
@@ -73,16 +74,17 @@ a {
     right: 45%;
     width: auto !important;
     padding: 8px 20px;
-    background: rgb(36, 36, 36, 0.5);
+    background: rgb(255, 255, 255, 1);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
-    color: whitesmoke;
+    color: rgb(44, 44, 44);
     font-family: SFProDisplay-Regular;
     cursor: pointer;
 }
 
 .copyright:hover,
 .footer-info:hover {
-    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.3);
 }
 
 .landing {
@@ -126,11 +128,13 @@ a {
 
 .menu-left:hover {
     border-right: solid 5px rgb(44, 44, 44);
+    border-radius: 0 3px 3px 0;
     transition: 300ms;
 }
 
 .menu-right:hover {
     border-left: solid 5px rgb(44, 44, 44);
+    border-radius: 3px 0 0 3px;
     transition: 300ms;
 }
 
@@ -257,8 +261,7 @@ a {
 .menu-mobile-border {
     border: solid 5px #ffffff;
     border-radius: 10px;
-    height: 300px;
-    padding-top: 50px;
+    height: 200px;
     margin-bottom: 50px;
     display: none;
     cursor: pointer;
@@ -286,6 +289,7 @@ a {
 .background-web-4 {
     background: url(/img/pam.png);
     background-size: cover;
+    background-position: center;
     padding-top: 170px;
 }
 
@@ -346,7 +350,6 @@ a {
     display: none;
     position: fixed;
     z-index: 1000;
-    padding-top: 50px;
     left: 0;
     top: 0;
     width: 100%;
@@ -360,19 +363,24 @@ a {
 
 .modal-content {
     background-color: #fefefe;
-    margin: auto;
-    padding: 30px 20px;
+    padding: 100px 25%;
     border-radius: 5px;
     box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.2);
-    width: 80%;
+    width: 100%;
+}
+
+.modal-content>img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
 }
 
 .close-modal {
     color: #aaaaaa;
     float: right;
-    font-size: 28px;
+    font-size: 38px;
     font-weight: bold;
-    margin-top: -20px;
+    margin-top: -40px;
 }
 
 .close-modal:hover,
@@ -381,3 +389,15 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
+/* END MODAL */
+.containerShowcase {
+    margin: 20px 0;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 50px;
+}
+
+.prof-card{
+
+}
+
