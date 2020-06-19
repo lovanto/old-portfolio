@@ -9,7 +9,7 @@
 }
 
 html {
-    background: #7959ef;
+    background: white;
 }
 
 article,
@@ -33,7 +33,7 @@ a {
 .main {
     position: absolute;
     z-index: 90;
-    background: url("https://raw.githubusercontent.com/lovanto/background-image/master/harbor/belitung.JPG");
+    background: #ffffff;
     background-size: cover;
     background-attachment: fixed;
     color: rgb(44, 44, 44);
@@ -59,9 +59,10 @@ a {
     right: 5%;
     width: auto !important;
     padding: 8px 20px;
-    background: rgb(36, 36, 36, 0.5);
+    background: rgb(255, 255, 255, 1);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
-    color: whitesmoke;
+    color: rgb(44, 44, 44);
     font-family: SFProDisplay-Regular;
     cursor: pointer;
 }
@@ -73,16 +74,17 @@ a {
     right: 45%;
     width: auto !important;
     padding: 8px 20px;
-    background: rgb(36, 36, 36, 0.5);
+    background: rgb(255, 255, 255, 1);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
-    color: whitesmoke;
+    color: rgb(44, 44, 44);
     font-family: SFProDisplay-Regular;
     cursor: pointer;
 }
 
 .copyright:hover,
 .footer-info:hover {
-    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.3);
 }
 
 .landing {
@@ -109,7 +111,7 @@ a {
 .menu-left {
     position: fixed;
     z-index: 99;
-    color: white;
+    color: rgb(44, 44, 44);
     left: 6.5%;
     top: calc(38% - 6%);
     cursor: pointer;
@@ -118,19 +120,21 @@ a {
 .menu-right {
     position: fixed;
     z-index: 99;
-    color: white;
+    color: rgb(44, 44, 44);
     right: 7%;
     top: calc(38% - 7%);
     cursor: pointer;
 }
 
 .menu-left:hover {
-    border-right: solid 5px #ffffff;
+    border-right: solid 5px rgb(44, 44, 44);
+    border-radius: 0 3px 3px 0;
     transition: 300ms;
 }
 
 .menu-right:hover {
-    border-left: solid 5px #ffffff;
+    border-left: solid 5px rgb(44, 44, 44);
+    border-radius: 3px 0 0 3px;
     transition: 300ms;
 }
 
@@ -167,7 +171,7 @@ a {
 }
 
 .con-close {
-    background: red;
+    background-color: red;
     color: black;
     display: none;
     cursor: pointer;
@@ -257,22 +261,22 @@ a {
 .menu-mobile-border {
     border: solid 5px #ffffff;
     border-radius: 10px;
-    height: 300px;
-    padding-top: 50px;
+    height: 200px;
     margin-bottom: 50px;
     display: none;
     cursor: pointer;
 }
 
 .background-web-1 {
-    background: url(/img/libon.png);
+    background: url('https://raw.githubusercontent.com/lovanto/libon/master/images/background/perpus2.jpg');
     background-size: cover;
     padding-top: 170px;
 }
 
 .background-web-2 {
-    background: url(/img/sibunda.jpg);
+    background: url('https://raw.githubusercontent.com/lovanto/sibunda/master/images/background/header.png');
     background-size: cover;
+    background-position: right;
     padding-top: 170px;
 }
 
@@ -285,11 +289,24 @@ a {
 .background-web-4 {
     background: url(/img/pam.png);
     background-size: cover;
+    background-position: center;
     padding-top: 170px;
 }
 
 .background-web-5 {
     background: url(/img/aurora.jpg);
+    background-size: cover;
+    padding-top: 170px;
+}
+
+.background-web-6 {
+    background: url(/img/aurora.jpg);
+    background-size: cover;
+    padding-top: 170px;
+}
+
+.background-web-7 {
+    background: url(/img/covid.png);
     background-size: cover;
     padding-top: 170px;
 }
@@ -312,6 +329,11 @@ a {
     padding-top: 170px;
 }
 
+.background-default {
+    /* background: url(/img/bg.png);
+    background-size: cover; */
+}
+
 .works-card {
     min-width: 225px !important;
     min-height: 225px !important;
@@ -322,10 +344,9 @@ a {
 }
 
 .works-card:hover {
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -338,4 +359,75 @@ a {
 .badge-default {
     padding: 8px;
     background: rgb(36, 36, 36, 0.7);
+}
+
+/* MODAL */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(200, 200, 200, 0.75);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 100px 25%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.modal-content>img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.close-modal {
+    color: #aaaaaa;
+    float: right;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* END MODAL */
+.containerShowcase {
+    margin: 20px 0;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 50px;
+}
+
+.badge{
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.badge-active{
+    background-color: rgb(19, 95, 194);
+}
+
+.badge-inactive{
+    background-color: rgb(194, 24, 24);
+}
+
+.text-center{
+    text-align: center;
 }

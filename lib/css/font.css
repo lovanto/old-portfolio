@@ -19,6 +19,12 @@
     text-transform: uppercase;
 }
 
+.header-plus {
+    font-family: Nexa;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
 .header {
     font-family: Nexa;
     font-size: 40px;
@@ -49,6 +55,14 @@
     font-weight: 500;
 }
 
+.sub-text {
+    margin: 10px 0;
+    font-family: Nexa;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
 .close {
     font-family: SFProDisplay-Regular;
     font-size: 20px;
@@ -61,4 +75,20 @@
 .menu-header {
     font-family: Nexa;
     font-size: 25px;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.blue {
+    color: rgb(19, 95, 194);
+}
+
+.black {
+    color: rgb(44, 44, 44);
+}
+
+.white{
+    color: white;
 }
