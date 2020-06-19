@@ -409,7 +409,21 @@ a {
     padding: 20px 50px;
 }
 
-.prof-card{
-
+.badge{
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
 }
 
+.badge-active{
+    background-color: rgb(19, 95, 194);
+}
+
+.badge-inactive{
+    background-color: rgb(194, 24, 24);
+}
+
+.text-center{
+    text-align: center;
+}

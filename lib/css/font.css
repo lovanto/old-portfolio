@@ -77,8 +77,16 @@
     font-size: 25px;
 }
 
+.bolder{
+    font-weight: bolder;
+}
+
 .blue {
     color: rgb(19, 95, 194);
+}
+
+.black {
+    color: rgb(44, 44, 44);
 }
 
 .white{
