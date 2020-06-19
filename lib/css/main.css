@@ -9,7 +9,7 @@
 }
 
 html {
-    background: #7959ef;
+    background: white;
 }
 
 article,
@@ -329,6 +329,11 @@ a {
     padding-top: 170px;
 }
 
+.background-default {
+    /* background: url(/img/bg.png);
+    background-size: cover; */
+}
+
 .works-card {
     min-width: 225px !important;
     min-height: 225px !important;
@@ -339,10 +344,9 @@ a {
 }
 
 .works-card:hover {
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
