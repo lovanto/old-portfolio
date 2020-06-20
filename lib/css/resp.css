@@ -185,5 +185,10 @@
 
     .modal-content {
         padding: 50px 5%;
+    }
+
+    .desWorks{
+        padding-left: 0px !important;
+    }
 
 }
