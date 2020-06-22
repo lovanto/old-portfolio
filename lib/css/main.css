@@ -45,7 +45,7 @@ a {
 .works {
     position: absolute;
     z-index: 90;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(250, 250, 250);
     color: rgb(44, 44, 44);
     width: 100% !important;
     min-height: 100%;
@@ -90,8 +90,7 @@ a {
 .landing {
     position: absolute;
     z-index: 80;
-    background: black;
-    background: rgb(255, 255, 255);
+    background-color: rgb(250, 250, 250);
     color: #2c2c2c;
     width: 100% !important;
     height: auto;
@@ -182,7 +181,8 @@ a {
     box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
-.icon-left:hover, .icon-right:hover {
+.icon-left:hover,
+.icon-right:hover {
     border: solid 2px rgb(218, 14, 14);
     color: rgb(218, 14, 14);
     transition: 500ms;
@@ -317,8 +317,11 @@ a {
 }
 
 .background-default {
-    /* background: url(/img/bg.png); */
+    background: url(/img/bg.jpg);
+    /* https://mipa.unram.ac.id/savin-ny-website-background-web/ */
     background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
 }
 
 .works-card {
@@ -359,7 +362,7 @@ a {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(200, 200, 200, 0.75);
+    background-color: rgba(200, 200, 200, 1);
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     transition: all 1s;
@@ -403,21 +406,32 @@ a {
     padding: 20px 50px;
 }
 
-.badge{
+.badge {
     padding: 10px 40px;
     color: white;
     font-size: 20px;
     border-radius: 50px;
 }
 
-.badge-active{
+.badge-active {
     background-color: rgb(19, 95, 194);
 }
 
-.badge-inactive{
+.badge-inactive {
     background-color: rgb(194, 24, 24);
 }
 
-.text-center{
+.text-center {
     text-align: center;
+}
+
+.cloud {
+    width: 500px;
+    height: 275px;
+    border-radius: 50%;
+    filter: url(#filter);
+    box-shadow: 400px 400px 60px 0px #fff;
+    position: absolute;
+    top: -320px;
+    left: -320px;
 }
