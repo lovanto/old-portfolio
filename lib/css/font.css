@@ -31,6 +31,11 @@
     text-transform: uppercase;
 }
 
+.min-header {
+    font-family: Nexa;
+    font-size: 35px;
+}
+
 .side-menu {
     font-family: Nexa;
     font-size: 25px;
@@ -78,7 +83,7 @@
 }
 
 .bolder{
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .blue {
