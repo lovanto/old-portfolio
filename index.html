@@ -27,13 +27,19 @@
                 </div>
             </a> -->
             <div id="btn-about">
-                <div class="menu-right side-menu pad-1 slide-right">
+                <div class="menu-right side-menu pad-1 slide-right" id="triggerAbout">
                     <span onclick="showAbout()">About</span>
+                </div>
+                <div class="menu-right side-menu pad-1 slide-right hidden" style="margin-right: 58px; margin-top: 17px;">
+                    私について
                 </div>
             </div>
             <div id="btn-works">
-                <div class="menu-left side-menu pad-1 slide-left">
+                <div class="menu-left side-menu pad-1 slide-left" id="triggerWorks">
                     <span onclick="showWorks()">Works</span>
+                </div>
+                <div class="menu-left side-menu pad-1 slide-left hidden" style="margin-left: 58px; margin-top: 25px;">
+                    おしごと
                 </div>
             </div>
         </article>
@@ -515,7 +521,8 @@
                     <div class="menu-header" style="margin-top: 10%;">
                         <span onclick="showWorks()">
                             <div class="menu-mobile-border background-web-5 white" style="padding-top: 80px;">
-                                WORKS</div>
+                                WORKS
+                            </div>
                         </span>
                         <span onclick="showAbout()">
                             <div class="menu-mobile-border background-web-5 white" style="padding-top: 80px;">ABOUT

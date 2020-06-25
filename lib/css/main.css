@@ -424,3 +424,15 @@ a {
 .text-center {
     text-align: center;
 }
+
+div.hidden {
+    display: none;
+}
+
+#triggerAbout:hover+div.hidden {
+    display: block;
+}
+
+#triggerWorks:hover+div.hidden {
+    display: block;
+}
