@@ -257,6 +257,7 @@ a {
 .background-web-1 {
     background: url('https://raw.githubusercontent.com/lovanto/libon/master/images/background/perpus2.jpg');
     background-size: cover;
+    background-position: center;
     padding-top: 170px;
 }
 
@@ -270,6 +271,7 @@ a {
 .background-web-3 {
     background: url(/img/blog.jpg);
     background-size: cover;
+    background-position: center;
     padding-top: 170px;
 }
 
@@ -283,36 +285,42 @@ a {
 .background-web-5 {
     background: url(/img/aurora.jpg);
     background-size: cover;
+    background-position: center;
     padding-top: 170px;
 }
 
 .background-web-6 {
-    background: url(/img/aurora.jpg);
+    background: url('https://avatars0.githubusercontent.com/u/57402405?s=460&u=3239a48cd70a2225c6057271f1cbb1385907ec76&v=4');
     background-size: cover;
+    background-position: center;
     padding-top: 170px;
 }
 
 .background-web-7 {
     background: url(/img/covid.png);
     background-size: cover;
+    background-position: center;
     padding-top: 170px;
 }
 
 .background-andro-1 {
     background: url(/img/github.png);
     background-size: cover;
+    background-position: center;
     padding-top: 170px;
 }
 
 .background-andro-2 {
     background: url(/img/bookon.png);
     background-size: cover;
+    background-position: center;
     padding-top: 170px;
 }
 
 .background-andro-3 {
     background: url(/img/mma.png);
     background-size: cover;
+    background-position: center;
     padding-top: 170px;
 }
 
