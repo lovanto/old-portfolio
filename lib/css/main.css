@@ -337,6 +337,7 @@ a {
     min-height: 225px !important;
     max-width: 225px !important;
     max-height: 225px !important;
+    margin-left: 0px !important;
     border-radius: 7px;
     box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.3);
     transition: 300ms;
@@ -347,10 +348,10 @@ a {
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
 
     cursor: pointer;
 }
@@ -377,7 +378,7 @@ a {
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #f8f7f7;
     padding: 100px 25%;
     border-radius: 5px;
     box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.2);
@@ -410,6 +411,7 @@ a {
 /* END MODAL */
 .containerShowcase {
     margin: 20px 0;
+    background-color: #ffffff;
     box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 20px 50px;
 }
@@ -423,10 +425,12 @@ a {
 
 .badge-active {
     background-color: rgb(19, 95, 194);
+    box-shadow: 0px 2px 10px 0px rgb(19, 95, 194);
 }
 
 .badge-inactive {
     background-color: rgb(194, 24, 24);
+    box-shadow: 0px 2px 10px 0px rgb(194, 24, 24);
 }
 
 .text-center {
@@ -443,4 +447,8 @@ div.hidden {
 
 #triggerWorks:hover+div.hidden {
     display: block;
+}
+.rounded{
+    border-radius: 5px;
+}
 }
