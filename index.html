@@ -18,7 +18,7 @@
 
         <article>
             <span class="close" onclick="backAction()">
-                <div class="icon-left icon-circle con-close scale-in-center" id="btn-back">X</div>
+                <div class="icon-right icon-circle con-close scale-in-center" id="btn-back">X</div>
             </span>
             <!-- <a href="index.html" class="close">
                 <div class="icon-right icon-circle scale-in-center">
@@ -27,13 +27,20 @@
                 </div>
             </a> -->
             <div id="btn-about">
-                <div class="menu-right side-menu pad-1 slide-right">
+                <div class="menu-right side-menu pad-1 slide-right" id="triggerAbout">
                     <span onclick="showAbout()">About</span>
+                </div>
+                <div class="menu-right side-menu pad-1 slide-right hidden"
+                    style="margin-right: 58px; margin-top: 17px;">
+                    私について
                 </div>
             </div>
             <div id="btn-works">
-                <div class="menu-left side-menu pad-1 slide-left">
+                <div class="menu-left side-menu pad-1 slide-left" id="triggerWorks">
                     <span onclick="showWorks()">Works</span>
+                </div>
+                <div class="menu-left side-menu pad-1 slide-left hidden" style="margin-left: 58px; margin-top: 25px;">
+                    おしごと
                 </div>
             </div>
         </article>
@@ -43,8 +50,10 @@
                 <div class="container slide-right" style="text-align: center;">
                     <div class="super-header mb-5 black">WORKS</div>
                     <div class="row mb-3">
-                        <div class="con-3 header">Website</div>
-                        <div class="row con-7 sub-header white bolder">
+                        <div class="con-3 min-header">
+                            <div class="mb-1">Website</div>
+                        </div>
+                        <div class="row con-7 sub-header white bolder" style="margin-left: -10px;">
                             <div class="con-2 works-card mar-1 background-web-7" id="btnCovid">
                                 <div class="badge-default">COVID-19 TODAY</div>
                             </div>
@@ -69,8 +78,10 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <div class="con-3 header">Android</div>
-                        <div class="row con-7 sub-header white bolder">
+                        <div class="con-3 min-header">
+                            <div class="mb-1">Android</div>
+                        </div>
+                        <div class="row con-7 sub-header white bolder" style="margin-left: -10px;">
                             <div class="con-2 works-card mar-1 background-andro-1" id="btnGithubApp">
                                 <div class="badge-default">GITHUB API APP</div>
                             </div>
@@ -91,7 +102,7 @@
                 <div class="modal-content slide-bottom">
                     <span class="close-modal">&times;</span>
                     <div class="header-plus mb-1">
-                        <span class="blue"><a href="" target="_blank">AURORA</a></span> COMPONENT
+                        <span class="blue">AURORA</span> COMPONENT
                     </div>
                     <hr>
                     <div class="row sub-header">
@@ -107,7 +118,7 @@
                                     class="blue">github.com/helloproclub/Aurora</a>
                             </div>
                             <div class="mb-2">
-                                <span class="badge badge-active">ACTIVE</span>
+                                <span class="badge badge-active bolder">ACTIVE</span>
                             </div>
                         </div>
                     </div>
@@ -134,8 +145,7 @@
                 <div class="modal-content slide-bottom">
                     <span class="close-modal">&times;</span>
                     <div class="header-plus mb-1">
-                        <span class="blue"><a href="" target="_blank">PAM
-                                AIR</a></span> PROJECT
+                        <span class="blue">PAM AIR</span> PROJECT
                     </div>
                     <hr>
                     <div class="row sub-header">
@@ -151,7 +161,7 @@
                                     class="blue">github.com/lovanto/pos_pam</a>
                             </div>
                             <div class="mb-2">
-                                <span class="badge badge-active">ACTIVE</span>
+                                <span class="badge badge-active bolder">ACTIVE</span>
                             </div>
                         </div>
                     </div>
@@ -195,7 +205,7 @@
                                     class="blue">github.com/lovanto/libon</a>
                             </div>
                             <div class="mb-2">
-                                <span class="badge badge-active">ACTIVE</span>
+                                <span class="badge badge-active bolder">ACTIVE</span>
                             </div>
                         </div>
                     </div>
@@ -240,7 +250,7 @@
                                     class="blue">github.com/lovanto/sibunda</a>
                             </div>
                             <div class="mb-2">
-                                <span class="badge badge-active">ACTIVE</span>
+                                <span class="badge badge-active bolder">ACTIVE</span>
                             </div>
                         </div>
                     </div>
@@ -268,8 +278,7 @@
                 <div class="modal-content slide-bottom">
                     <span class="close-modal">&times;</span>
                     <div class="header-plus mb-1">
-                        Lovanto <span class="blue"><a href="" target="_blank">Blog
-                            </a></span>
+                        Lovanto <span class="blue">Blog</span>
                     </div>
                     <hr>
                     <div class="row sub-header">
@@ -286,7 +295,7 @@
                                     class="blue">github.com/lovanto/personalBlog</a>
                             </div>
                             <div class="mb-2">
-                                <span class="badge badge-inactive">INACTIVE</span>
+                                <span class="badge badge-inactive bolder">INACTIVE</span>
                             </div>
                         </div>
                     </div>
@@ -329,7 +338,7 @@
                                     class="blue">github.com/lovanto/sosDev3-prototype</a>
                             </div>
                             <div class="mb-2">
-                                <span class="badge badge-active">ACTIVE</span>
+                                <span class="badge badge-active bolder">ACTIVE</span>
                             </div>
                         </div>
                     </div>
@@ -368,7 +377,7 @@
                                     class="blue">github.com/lovanto/bookon-booking-online</a>
                             </div>
                             <div class="mb-2">
-                                <span class="badge badge-inactive">INACTIVE</span>
+                                <span class="badge badge-inactive bolder">INACTIVE</span>
                             </div>
                         </div>
                     </div>
@@ -406,7 +415,7 @@
                                     class="blue">github.com/lovanto/money-management-apps</a>
                             </div>
                             <div class="mb-2">
-                                <span class="badge badge-active">ACTIVE</span>
+                                <span class="badge badge-active bolder">ACTIVE</span>
                             </div>
                         </div>
                     </div>
@@ -446,7 +455,7 @@
                                     class="blue">github.com/lovanto/lovanto.github.io</a>
                             </div>
                             <div class="mb-2">
-                                <span class="badge badge-active">ACTIVE</span>
+                                <span class="badge badge-active bolder">ACTIVE</span>
                             </div>
                         </div>
                     </div>
@@ -491,7 +500,7 @@
                                     class="blue">github.com/lovanto/covid-today</a>
                             </div>
                             <div class="mb-2">
-                                <span class="badge badge-active">ACTIVE</span>
+                                <span class="badge badge-active bolder">ACTIVE</span>
                             </div>
                         </div>
                     </div>
@@ -521,7 +530,8 @@
                     <div class="menu-header" style="margin-top: 10%;">
                         <span onclick="showWorks()">
                             <div class="menu-mobile-border background-web-5 white" style="padding-top: 80px;">
-                                WORKS</div>
+                                WORKS
+                            </div>
                         </span>
                         <span onclick="showAbout()">
                             <div class="menu-mobile-border background-web-5 white" style="padding-top: 80px;">ABOUT
