@@ -106,6 +106,10 @@
     padding-top: 50px;
 }
 
+.pt-8 {
+    padding-top: 80px;
+}
+
 /* PADDING RIGHT SETTING */
 .pr-1 {
     padding-right: 10px;
@@ -211,6 +215,10 @@
     margin-top: 50px;
 }
 
+.mt-1p {
+    margin-top: 10%;
+}
+
 /* MARGIN LEFT SETTING */
 .ml-1 {
     margin-left: 10px;
@@ -230,6 +238,10 @@
 
 .ml-5 {
     margin-left: 50px;
+}
+
+.mlm-1 {
+    margin-left: -10px;
 }
 
 /* MARGIN RIGHT SETTING */
@@ -272,4 +284,23 @@
 
 .mb-5 {
     margin-bottom: 50px;
+}
+
+.set{
+
+    &-welcome-mid {
+        margin-top: 23%;
+    }
+
+    &-jap-left {
+        margin-right: 58px;
+        margin-top: 15px;
+        font-weight: 600;
+    }
+
+    &-jap-right {
+        margin-left: 58px;
+        margin-top: 28px;
+        font-weight: 600;
+    }
 }
