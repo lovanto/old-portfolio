@@ -1,4 +1,5 @@
 import React from 'react';
+import CircleIcon from './circleIcon.js'
 
 function PageAbout() {
     return (
@@ -21,24 +22,10 @@ function PageAbout() {
                             <div className="row">
                                 <div className="mt-1 ml-2">
                                     <div className="row">
-                                        <div className="icon-img ml-1 roll-in-right mt-1"><a
-                                            href="https://github.com/lovanto" target="_blank"><img
-                                                src={require('../img/icon/github.png')} className="icon-circle" alt="Github"
-                                                width="35" /></a>
-                                        </div>
-                                        <div className="icon-img ml-1 roll-in-right mt-1"><a
-                                            href="mailto:rifkylovanto@gmail.com?" target="_blank"><img
-                                                src={require('../img/icon/gmail.png')} className="icon-circle" alt="Gmail"
-                                                width="35" /></a>
-                                        </div>
-                                        <div className="icon-img ml-1 roll-in-right mt-1"><a
-                                            href="https://www.linkedin.com/in/lovantoo" target="_blank">
-                                            <img src={require('../img/icon/linkedin.png')} className="icon-circle" alt="LinkedIn"
-                                                width="35" /></a></div>
-                                        <div className="icon-img ml-1 roll-in-right mt-1"><a
-                                            href="https://wa.me/6287823837566" target="_blank"><img
-                                                src={require('../img/icon/whatsapp.png')} className="icon-circle" alt="WhatsApp"
-                                                width="35" /></a></div>
+                                        <CircleIcon linkTo="https://github.com/lovanto" img={require('../img/icon/github.png')} alt="Github" size="35" />
+                                        <CircleIcon linkTo="mailto:rifkylovanto@gmail.com?" img={require('../img/icon/gmail.png')} alt="Gmail" size="35" />
+                                        <CircleIcon linkTo="https://www.linkedin.com/in/lovantoo" img={require('../img/icon/linkedin.png')} alt="LinkedIn" size="35" />
+                                        <CircleIcon linkTo="https://wa.me/6287823837566" img={require('../img/icon/whatsapp.png')} alt="Whatsapp" size="35" />
                                     </div>
                                 </div>
                             </div>
