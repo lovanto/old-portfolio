@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './css/style.scss';
 import Menu from './component/menu';
 import About from './component/pageAbout';
+import DetailWork from './component/detailWork';
 import Works from './component/pageWorks';
 import Footer from './component/footer';
 import * as serviceWorker from './serviceWorker';
@@ -11,6 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Menu />
     <Works />
+    <DetailWork />
     <About />
     <Footer />
   </React.StrictMode>,

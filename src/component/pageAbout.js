@@ -1,14 +1,14 @@
 import React from 'react';
 import CircleIcon from './circleIcon.js'
 
-function PageAbout() {
+const PageAbout = () => {
     return (
         <article>
-            <div className="landing" id="about">
+            <div className="pageAbout" id="about">
                 <div className="container slide-left">
                     <div className="super-header text-center">ABOUT</div>
                     <div className="row">
-                        <div className="con-5 pad-2 landing-left ml-5">
+                        <div className="con-5 pad-2 pageAbout-left ml-5">
                             <p className="header">
                                 Hi, I'm Rifky Lovanto
                             </p>
@@ -30,7 +30,7 @@ function PageAbout() {
                                 </div>
                             </div>
                         </div>
-                        <div className="con-1 landing-right">
+                        <div className="con-1 pageAbout-right">
                             <img className="img-circle img-set-ava"
                                 src="https://avatars0.githubusercontent.com/u/57402405?s=460&u=3239a48cd70a2225c6057271f1cbb1385907ec76&v=4"
                                 alt="avatar" />
@@ -40,6 +40,6 @@ function PageAbout() {
             </div>
         </article>
     );
-}
+};
 
 export default PageAbout;
