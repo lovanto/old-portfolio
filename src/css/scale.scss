@@ -215,7 +215,7 @@
     margin-top: 50px;
 }
 
-.mt-1p{
+.mt-1p {
     margin-top: 10%;
 }
 
@@ -284,4 +284,23 @@
 
 .mb-5 {
     margin-bottom: 50px;
+}
+
+.set{
+
+    &-welcome-mid {
+        margin-top: 23%;
+    }
+
+    &-jap-left {
+        margin-right: 58px;
+        margin-top: 15px;
+        font-weight: 600;
+    }
+
+    &-jap-right {
+        margin-left: 58px;
+        margin-top: 28px;
+        font-weight: 600;
+    }
 }
