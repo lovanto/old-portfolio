@@ -3,14 +3,14 @@ import React from 'react';
 function PageWorks() {
     return (
         <article>
-            <div className="works" id="works">
+            <div className="works" id="works" align="center">
                 <div className="container slide-right">
                     <div className="super-header mb-5 black">WORKS</div>
                     <div className="row mb-3">
                         <div className="con-3 min-header">
                             <div className="mb-1">Website</div>
                         </div>
-                        <div className="row con-7 sub-header white bolder">
+                        <div className="row con-7 sub-header white bolder mlm-1">
                             <div className="con-2 works-card mar-1 background-web-7" id="btnCovid">
                                 <div className="badge-default">COVID-19 TODAY</div>
                             </div>
@@ -38,7 +38,7 @@ function PageWorks() {
                         <div className="con-3 min-header">
                             <div className="mb-1">Android</div>
                         </div>
-                        <div className="row con-7 sub-header white bolder">
+                        <div className="row con-7 sub-header white bolder mlm-1">
                             <div className="con-2 works-card mar-1 background-andro-1" id="btnGithubApp">
                                 <div className="badge-default">GITHUB API APP</div>
                             </div>

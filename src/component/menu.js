@@ -77,6 +77,20 @@ function Menu() {
           おしごと
         </div>
       </div>
+
+      <div className="main" id="main">
+        <div className="super-header container" align="center">
+          <div className="slide-bottom set-welcome-mid">WELCOME</div>
+          <div className="menu-header mt-1p">
+            <span onClick={showWorks}>
+              <div className="menu-mobile-border background-web-5 white pt-8">WORKS</div>
+            </span>
+            <span onClick={showAbout}>
+              <div className="menu-mobile-border background-web-5 white pt-8">ABOUT</div>
+            </span>
+          </div>
+        </div>
+      </div>
     </article>
   );
 }

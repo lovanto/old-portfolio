@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/style.scss';
 import Menu from './component/menu';
-import MainMenu from './component/mainMenu';
 import About from './component/pageAbout';
 import Works from './component/pageWorks';
 import Footer from './component/footer';
@@ -12,7 +11,6 @@ ReactDOM.render(
   <React.StrictMode>
     <Menu />
     <Works />
-    <MainMenu />
     <About />
     <Footer />
   </React.StrictMode>,
