@@ -46,7 +46,7 @@ const PageWorks = () => {
                 line='800'
                 language='Javascript'
                 size='5.2 Mb'
-                img1={require('../img/detail/covid_1.png')}
+                img1={require('../img/detail/covid_1.png').default}
             />
             <DetailWork
                 id='modalPortfolio'
@@ -59,10 +59,10 @@ const PageWorks = () => {
                 line='2000'
                 language='HTML, CSS'
                 size='25.3 Mb'
-                img1={require('../img/detail/portfolio_1.png')}
-                img2={require('../img/detail/portfolio_2.png')}
-                img3={require('../img/detail/portfolio_3.png')}
-                img4={require('../img/detail/portfolio_4.png')}
+                img1={require('../img/detail/portfolio_1.png').default}
+                img2={require('../img/detail/portfolio_2.png').default}
+                img3={require('../img/detail/portfolio_3.png').default}
+                img4={require('../img/detail/portfolio_4.png').default}
             />
             <DetailWork
                 id='modalMMA'
@@ -75,8 +75,8 @@ const PageWorks = () => {
                 line='5.900'
                 language='Java'
                 size='150.0 Mb'
-                img1={require('../img/detail/mma_1.jpeg')}
-                img2={require('../img/detail/mma_2.jpeg')}
+                img1={require('../img/detail/mma_1.jpeg').default}
+                img2={require('../img/detail/mma_2.jpeg').default}
             />
             <DetailWork
                 id='modalBookon'
@@ -89,7 +89,7 @@ const PageWorks = () => {
                 line='800'
                 language='KOTLIN'
                 size='100.8 Mb'
-                img1={require('../img/detail/bookon_1.jpeg')}
+                img1={require('../img/detail/bookon_1.jpeg').default}
             />
             <DetailWork
                 id='modalGithubApp'
@@ -102,8 +102,8 @@ const PageWorks = () => {
                 line='5.200'
                 language='KOTLIN'
                 size='90.2 Mb'
-                img1={require('../img/detail/github_1.png')}
-                img2={require('../img/detail/github_2.png')}
+                img1={require('../img/detail/github_1.png').default}
+                img2={require('../img/detail/github_2.png').default}
             />
             <DetailWork
                 id='modalBlog'
@@ -116,10 +116,10 @@ const PageWorks = () => {
                 line='28.400'
                 language='PHP 7'
                 size='15.9 Mb'
-                img1={require('../img/detail/blog_1.png')}
-                img2={require('../img/detail/blog_2.png')}
-                img3={require('../img/detail/blog_3.png')}
-                img4={require('../img/detail/blog_4.png')}
+                img1={require('../img/detail/blog_1.png').default}
+                img2={require('../img/detail/blog_2.png').default}
+                img3={require('../img/detail/blog_3.png').default}
+                img4={require('../img/detail/blog_4.png').default}
             />
             <DetailWork
                 id='modalSiBunda'
@@ -132,10 +132,10 @@ const PageWorks = () => {
                 line='16.500'
                 language='HTML, CSS'
                 size='650.4 Mb'
-                img1={require('../img/detail/sibunda_1.png')}
-                img2={require('../img/detail/sibunda_2.png')}
-                img3={require('../img/detail/sibunda_3.png')}
-                img4={require('../img/detail/sibunda_4.png')}
+                img1={require('../img/detail/sibunda_1.png').default}
+                img2={require('../img/detail/sibunda_2.png').default}
+                img3={require('../img/detail/sibunda_3.png').default}
+                img4={require('../img/detail/sibunda_4.png').default}
             />
             <DetailWork
                 id='modalLibon'
@@ -148,9 +148,9 @@ const PageWorks = () => {
                 line='3.600'
                 language='HTML, CSS'
                 size='12.6 Mb'
-                img1={require('../img/detail/libon_1.png')}
-                img2={require('../img/detail/libon_2.png')}
-                img3={require('../img/detail/libon_3.png')}
+                img1={require('../img/detail/libon_1.png').default}
+                img2={require('../img/detail/libon_2.png').default}
+                img3={require('../img/detail/libon_3.png').default}
             />
             <DetailWork
                 id='modalPamAir'
@@ -163,9 +163,9 @@ const PageWorks = () => {
                 line='15.000'
                 language='Codeigniter'
                 size='95.6 Mb'
-                img1={require('../img/detail/pam_air_1.jpg')}
-                img2={require('../img/detail/pam_air_2.png')}
-                img3={require('../img/detail/pam_air_3.png')}
+                img1={require('../img/detail/pam_air_1.jpg').default}
+                img2={require('../img/detail/pam_air_2.png').default}
+                img3={require('../img/detail/pam_air_3.png').default}
             />
             <DetailWork
                 id='modalAurora'
@@ -178,9 +178,9 @@ const PageWorks = () => {
                 line='2000'
                 language='REACTJS'
                 size='4.35 Mb'
-                img1={require('../img/detail/aurora_1.png')}
-                img2={require('../img/detail/aurora_2.png')}
-                img3={require('../img/detail/aurora_3.png')}
+                img1={require('../img/detail/aurora_1.png').default}
+                img2={require('../img/detail/aurora_2.png').default}
+                img3={require('../img/detail/aurora_3.png').default}
             />
         </article>
     );

@@ -22,10 +22,10 @@ const PageAbout = () => {
                             <div className="row">
                                 <div className="mt-1 ml-2">
                                     <div className="row">
-                                        <CircleIcon linkTo="https://github.com/lovanto" img={require('../img/icon/github.png')} alt="Github" size="35" />
-                                        <CircleIcon linkTo="mailto:rifkylovanto@gmail.com?" img={require('../img/icon/gmail.png')} alt="Gmail" size="35" />
-                                        <CircleIcon linkTo="https://www.linkedin.com/in/lovantoo" img={require('../img/icon/linkedin.png')} alt="LinkedIn" size="35" />
-                                        <CircleIcon linkTo="https://wa.me/6287823837566" img={require('../img/icon/whatsapp.png')} alt="Whatsapp" size="35" />
+                                        <CircleIcon linkTo="https://github.com/lovanto" img={require('../img/icon/github.png').default} alt="Github" size="35" />
+                                        <CircleIcon linkTo="mailto:rifkylovanto@gmail.com?" img={require('../img/icon/gmail.png').default} alt="Gmail" size="35" />
+                                        <CircleIcon linkTo="https://www.linkedin.com/in/lovantoo" img={require('../img/icon/linkedin.png').default} alt="LinkedIn" size="35" />
+                                        <CircleIcon linkTo="https://wa.me/6287823837566" img={require('../img/icon/whatsapp.png').default} alt="Whatsapp" size="35" />
                                     </div>
                                 </div>
                             </div>
